@@ -42,10 +42,14 @@ const DesignI = () => {
                     <a href="http://" className="px-4 mb-6 lg:mb-0">
                         Pricing
                     </a>
+
+                    <a href="http://" className="px-4 mb-6 lg:mb-0 block lg:hidden">
+                        Login
+                    </a>
                 </div>
 
                 <div className="flex items-center">
-                <a href="http://" className="bg-[#6B67F5] px-6 py-2 text-white rounded">
+                <a href="http://" className="bg-[#6B67F5] px-6 py-2 text-white rounded hidden lg:block">
                         Login
                 </a>
 
@@ -143,11 +147,11 @@ const DesignI = () => {
 
             <section className="bg-[#F7FAFE] py-[5rem]">
                     <div className="px-[6.5%] flex flex-col items-center">
-                        <h1 className="font-[700] md:text-[4rem] text-[2.5rem] text-center">Choose Your Hosting Package</h1>
+                        <h1 className="font-[700] md:text-[4rem] text-[2rem] text-center">Choose Your Hosting Package</h1>
                         <p className="w-[90%] md:w-[60%] text-[#808080] text-center mt-[1rem]">Enter your select domain name and choose any extension name in the next step (choose between .com, .online, .tech, .site, .net, and more)</p>
  
                         <div className="grid justify-center md:grid-cols-2 lg:grid-cols-3 gap-2 w-full mt-[2.5rem]">
-                            <div className="mb-12 lg:mb-0 border-[1px] w-[20.8rem] md:w-[unset] border-[#605CEE] rounded flex flex-col justify-center items-center pt-6 pb-[2.5rem] px-6 md:mt-[3rem]">
+                            <div className="mb-12 lg:mb-0 border-[1px] w-full md:w-[unset] border-[#605CEE] rounded flex flex-col justify-center items-center pt-6 pb-[2.5rem] px-6 md:mt-[3rem]">
                                 <h3 className="text-[2rem] font-[700] text-center">Shared Hosting</h3>
                                 <p className="text-[#808080] text-center">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
@@ -218,7 +222,7 @@ const DesignI = () => {
 
                             <div className="mb-12 lg:mb-0">
                             <div className="w-full bg-[#17D7B5] text-white rounded py-[0.75rem] text-center">Most Popular</div>
-                            <div className="border-[1px] w-[20.8rem] md:w-[unset] bg-[#ffffff] rounded flex flex-col justify-center items-center pt-6 pb-[2.5rem] px-6">
+                            <div className="border-[1px] w-full md:w-[unset] bg-[#ffffff] rounded flex flex-col justify-center items-center pt-6 pb-[2.5rem] px-6">
                                 <h3 className="text-[2rem] font-[700] text-center">Premium Hosting</h3>
                                 <p className="text-[#808080] text-center">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
@@ -289,7 +293,7 @@ const DesignI = () => {
                             </div>
                             
 
-                            <div className="border-[1px] w-[20.8rem] md:mt-[3rem] md:w-[unset] border-[#605CEE] rounded flex flex-col justify-center items-center pt-6 pb-[2.5rem] px-6">
+                            <div className="border-[1px] w-full md:mt-[3rem] md:w-[unset] border-[#605CEE] rounded flex flex-col justify-center items-center pt-6 pb-[2.5rem] px-6">
                                 <h3 className="text-[2rem] font-[700] text-center">Premium Hosting</h3>
                                 <p className="text-[#808080] text-center">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
