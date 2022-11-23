@@ -33,8 +33,8 @@ const Home = () => {
                 </div>
             </section>
 
-            <footer className="px-[6.5vw]">
-                Miracle King Hesed
+            <footer className="px-[6.5vw] py-[1rem] text-white bg-indigo-900 border-t-[1px]">
+                Miracle King Hesed, {new Date().getFullYear()}
             </footer>
     </>
     );
